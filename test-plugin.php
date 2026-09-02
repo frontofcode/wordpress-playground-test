@@ -7,7 +7,7 @@ Author: WordPress Contributors
 */
 
 function my_custom_plugin() {
-    echo '<h1>Hello from My Custom Plugin!</h1>';
+    echo '<h1>This plugin is from GitHub!</h1>';
 }
 
 add_action('admin_notices', 'my_custom_plugin');
